@@ -18,14 +18,19 @@
 ```bash
 pip install playwright pandas openpyxl
 playwright install chromium
+```
 
 ## 使い方
 以下のコマンドでスクリプトを実行します（Windows環境の場合は py コマンドを使用）
 
+```bash
 python yahoo_news_scraper.py
+```
 
 実行後、コンソールに以下のプロンプトが表示されたら検索したいキーワードを入力してください。
 
+```bash
 検索したいキーワード：
+```
 
 処理完了後、実行フォルダ内に yahoo_search_{検索キーワード}.xlsx が生成されます。
