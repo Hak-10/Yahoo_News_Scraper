@@ -4,7 +4,7 @@ YahooNEWSのスクレイピングツールです。
 
 使用技術（Python / Playwright / Pandas）
 
-このファイルニは外部ライブラリが使用されています。そのため、ターミナルにて保存先のフォルダを参照し、メインファイル実行前に
+このファイルには外部ライブラリが使用されています。そのため、ターミナルにて保存先のフォルダを参照し、メインファイル実行前に
 pip install playwright pandas openpyxl
 playwright install chromium
 この二行を実行して下さい。その後、
